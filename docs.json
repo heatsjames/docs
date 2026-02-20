@@ -112,7 +112,10 @@
         ]
       },
       {
-        "version": "testVersion1"
+        "version": "testVersion1",
+        "pages": [
+          "test-version1page1"
+        ]
       }
     ]
   },
