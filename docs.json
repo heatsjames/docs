@@ -25,76 +25,94 @@
     },
     "versions": [
       {
-        "version": "Untitled Version",
+        "version": "testversion",
         "tabs": [
           {
-            "tab": "Guides",
-            "groups": [
+            "tab": "Untitled Tab",
+            "versions": [
               {
-                "group": "Getting started",
-                "pages": [
-                  "index",
-                  "quickstart",
-                  "development"
+                "version": "Untitled Version",
+                "tabs": [
+                  {
+                    "tab": "Guides",
+                    "groups": [
+                      {
+                        "group": "Getting started",
+                        "pages": [
+                          "index",
+                          "quickstart",
+                          "development",
+                          "untitled-page",
+                          {
+                            "group": "Untitled Group",
+                            "pages": []
+                          }
+                        ]
+                      },
+                      {
+                        "group": "Customization",
+                        "pages": [
+                          "essentials/settings",
+                          "essentials/navigation"
+                        ]
+                      },
+                      {
+                        "group": "Writing content",
+                        "pages": [
+                          "essentials/markdown",
+                          "essentials/code",
+                          "essentials/images",
+                          "essentials/reusable-snippets"
+                        ]
+                      },
+                      {
+                        "group": "AI tools",
+                        "pages": [
+                          "ai-tools/cursor",
+                          "ai-tools/claude-code",
+                          "ai-tools/windsurf"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "API reference",
+                    "groups": [
+                      {
+                        "group": "API documentation",
+                        "pages": [
+                          "api-reference/introduction"
+                        ]
+                      },
+                      {
+                        "group": "Endpoint examples",
+                        "pages": [
+                          "api-reference/endpoint/get",
+                          "api-reference/endpoint/create",
+                          "api-reference/endpoint/delete",
+                          "api-reference/endpoint/webhook"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "rong hai",
+                    "pages": [
+                      "test",
+                      "untitled-page"
+                    ]
+                  }
                 ]
               },
               {
-                "group": "Customization",
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Writing content",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "AI tools",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
+                "version": "Untitled Version"
               }
-            ]
-          },
-          {
-            "tab": "API reference",
-            "groups": [
-              {
-                "group": "API documentation",
-                "pages": [
-                  "api-reference/introduction"
-                ]
-              },
-              {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "rong hai",
-            "pages": [
-              "test",
-              "untitled-page"
             ]
           }
         ]
       },
       {
-        "version": "Untitled Version"
+        "version": "testVersion1"
       }
     ]
   },
